@@ -4,7 +4,7 @@
   "description": "minmore evil god as mobile app engine",
   "main": "index.js",
   "scripts": {
-    "start": "python -mSimpleHTTPServer"
+    "start": "node server.js"
   },
   "author": "wangxiaomo",
   "license": "MIT",
@@ -21,6 +21,7 @@
     "html-minify-loader": "^1.1.0",
     "node-sass": "^3.10.0",
     "raw-loader": "^0.5.1",
+    "react-hot-loader": "^3.0.0-beta.4",
     "resolve-url": "^0.2.1",
     "resolve-url-loader": "^1.6.0",
     "sass-loader": "^4.0.2",

@@ -5,7 +5,10 @@ var React = require("react")
 let Search = React.createClass({
   render: () => {
     return (
-      <button className="btn btn-primary">Button</button>
+      <div>
+        <button className="btn btn-primary">Button</button>
+        React Hot Reload
+      </div>
     )
   }
 })

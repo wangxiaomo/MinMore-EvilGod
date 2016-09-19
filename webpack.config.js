@@ -4,6 +4,8 @@ var path = require('path'),
 
 module.exports = {
   entry: [
+    'webpack-dev-server/client?http://0.0.0.0:20001',
+    'webpack/hot/dev-server',
     './index.jsx'
   ],
   output: {
@@ -29,5 +31,7 @@ module.exports = {
       }
     }),
     new webpack.optimize.OccurrenceOrderPlugin(),
+    new webpack.HotModuleReplacementPlugin(),
+    new webpack.NoErrorsPlugin()
   ]
 }
