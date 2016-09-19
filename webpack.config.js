@@ -2,7 +2,9 @@ var path = require('path'),
   loaders = require('./webpack.loaders.js')
 
 module.exports = {
-  entry: './index.jsx',
+  entry: [
+    './index.jsx'
+  ],
   output: {
     path: path.join(__dirname, 'build'),
     filename: 'bundle.js'
@@ -12,5 +14,8 @@ module.exports = {
   },
   module: {
     loaders: loaders
+  },
+  externals: {
+    "jquery": "jQuery"
   }
 }
