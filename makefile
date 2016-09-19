@@ -1,2 +1,2 @@
 clean:
-	rm -rf build/bundle.js
+	rm -rf build/*

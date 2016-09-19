@@ -1,0 +1,10 @@
+@import "compass/layout";
+
+.search {
+  color: red;
+  font-size: 14px;
+}
+
+#footer {
+  @include sticky-footer(54px);
+}
