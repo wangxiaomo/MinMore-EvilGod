@@ -1,6 +1,6 @@
 require("./search.scss")
 
-import React from 'react'
+var React = require("react")
 
 let Search = React.createClass({
   render: () => {

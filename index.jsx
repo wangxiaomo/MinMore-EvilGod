@@ -1,8 +1,7 @@
-require("bootstrap-loader")
 require("./app/global.scss")
 
-import React from 'react'
-import ReactDom from 'react-dom'
+var React = require("react"),
+  ReactDom = require("react-dom")
 
 import Search from './app/components/search.jsx'
 
