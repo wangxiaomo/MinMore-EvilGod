@@ -5,7 +5,7 @@ var webpack = require('webpack'),
 new WebpackDevServer(webpack(config), {
   hot: true,
   historyApiFallback: true,
-  contentBase: 'build'
+  contentBase: config.output.path
 }).listen(20001, '0.0.0.0', function(err, result){
   if(err){
     return console.log(err)
